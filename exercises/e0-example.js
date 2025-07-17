@@ -5,9 +5,9 @@ import { data } from "../data/data";
 // Return example: 'Planet Name'
 
 export function getFirstPlanetName(data) {
-  // Your code goes here...
+  
   const planets = data.planets;
-  //console.log(planets);
+  
   return planets[0].name;
 }
 

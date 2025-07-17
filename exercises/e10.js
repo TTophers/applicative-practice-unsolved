@@ -5,7 +5,10 @@ import { data } from "../data/data";
 // Return example: { key1: value1, key2: value2, ... , keyN: valueN }
 
 export function getAsteroidDataByName(data, asteroidName) {
-  // Your code goes here...
+ 
+    const asd = data.asteroids.find(asd => asd.name == asteroidName);
+    return asd;
+
 }
 
 
